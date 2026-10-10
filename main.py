@@ -292,6 +292,8 @@ def decode(text):
             decodedlist+="0"
         elif chr1 == space:
             decodedlist+=" "
+        else:
+            decodedlist+=chr1
     return decodedlist
 
 
